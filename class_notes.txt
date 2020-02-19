@@ -1,0 +1,33 @@
+font-variant: normal;
+The font-variant property allows you to change the targeted text to small caps. This property has been extended in CSS3.
+
+
+.fullscreen-bg {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			overflow: hidden;
+			z-index: -1;
+		}
+		
+		.fullscreen-bg__video {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: auto;
+			height: auto;
+			min-width: 100%;
+			min-height: 100%;
+			-webkit-transform: translate(-50%, -50%);
+			-moz-transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+		}
+
+
+
+        <video loop muted autoplay poster="" class="fullscreen-bg__video">
+			<source src="video/ColoredWheatHill.mp4/.mp4" type="video/mp4">
+		</video>
